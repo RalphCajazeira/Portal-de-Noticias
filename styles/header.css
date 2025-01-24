@@ -1,0 +1,15 @@
+#primary-menu {
+  padding-block: 26px;
+
+  & a {
+    gap: 8px;
+  }
+}
+
+#secondary-menu {
+  border-block: solid 1px var(--stroke-color);
+  & ul {
+    padding-block: 14px;
+    color: var(--text-color-secondary);
+  }
+}

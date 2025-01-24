@@ -1,0 +1,32 @@
+
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-bet {
+  justify-content: space-between;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
