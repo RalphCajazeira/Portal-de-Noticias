@@ -81,38 +81,3 @@ section header {
   }
 }
 
-/* section + section {
-  border-top: 1px solid var(--stroke-color);
-  margin-top: 80px;
-} */
-
-/* #weekly {
-  margin-bottom: 24px;
-
-  & header {
-    padding-block: 12px;
-    margin-bottom: 24px;
-  }
-
-  & > div {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  & a:hover {
-    color: var(--brand-color-light);
-  }
-
-  .card {
-    position: relative;
-  }
-
-  & h2 {
-    margin-top: 8px;
-  }
-
-  .content-tag {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-  }
-} */
