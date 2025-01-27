@@ -1,5 +1,3 @@
----
-
 # Portal de Notícias
 
 Bem-vindo ao repositório do **Portal de Notícias**! Este projeto foi desenvolvido durante meu curso na **Rocketseat**, onde pude colocar em prática meus conhecimentos em **HTML** e **CSS** básicos. A página foi criada com base em um modelo disponível no **Figma**, e o foco principal foi aprimorar minhas habilidades com o uso do **CSS Grid** para criar layouts organizados e estruturados.
@@ -16,7 +14,6 @@ O **Portal de Notícias** é uma página web que simula um site de notícias, co
 Aqui está uma prévia do projeto:
 
 ![screencapture-127-0-0-1-5500-index-html-2025-01-27-14_45_57](https://github.com/user-attachments/assets/ec4adc4b-b4a2-4f75-ad2f-cfc3d8d62177)
-
 
 Você também pode acessar o projeto diretamente pelo GitHub Pages: **[Visualizar Projeto](https://ralphcajazeira.github.io/Portal-de-Noticias/)**
 
@@ -50,5 +47,3 @@ Agradeço à **Rocketseat** pelo material de apoio e pelo desafio proposto, que 
 ---
 
 Sinta-se à vontade para explorar o projeto e deixar suas sugestões ou contribuições! 😊
-
----
