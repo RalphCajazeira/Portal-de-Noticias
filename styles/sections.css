@@ -22,18 +22,8 @@
       bottom: 0;
       padding: 24px;
 
-      & span {
-        display: inline-block;
-        text-transform: uppercase;
-        background-color: var(--brand-color-dark);
-        padding: 4px 8px;
-        border-radius: 4px;
-        font: 400 10px/1.2 var(--font-family);
-      }
-
       & h2 {
         margin-top: 8px;
-        font: var(--h1);
       }
     }
   }
