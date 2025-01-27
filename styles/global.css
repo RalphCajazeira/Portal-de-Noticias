@@ -18,7 +18,7 @@
   --h1: 800 24px/135% var(--font-family);
   --h2: 800 16px/140% var(--font-family);
   --h3: 800 14px/140% var(--font-family);
-  --span: 800 14px/145% var(--font-family);
+  --text-span: 800 14px/145% var(--font-family);
   --paragraph: 800 14px/160% var(--font-family);
 }
 
@@ -30,6 +30,11 @@
 }
 .text-lg {
   font: var(--h3);
+}
+
+.text-sm {
+  font: var(--text-span);
+  color: var(--text-color-secondary);
 }
 
 body {
@@ -54,6 +59,10 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+
+  &:hover {
+    color: var(--brand-color-light);
+  }
 }
 
 ul {
@@ -66,6 +75,7 @@ img {
 
 main {
   margin-top: 40px;
+  gap: 80px;
 }
 
 .content-tag {

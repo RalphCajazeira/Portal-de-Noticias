@@ -1,3 +1,25 @@
+section header {
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 12px 24px;
+  font: var(--text-span);
+
+  a {
+    justify-self: end;
+    align-items: center;
+    gap: 8px;
+
+    span {
+      background-image: url(../assets/icons/ArrowRight.svg);
+      height: 16px;
+      width: 16px;
+    }
+
+    &:hover span {
+      background-image: url(../assets/icons/ArrowRightHover.svg);
+    }
+  }
+}
+
 #featured {
   img {
     height: 100%;
@@ -32,3 +54,65 @@
     }
   }
 }
+
+#weekly {
+  & > div {
+    grid-template-columns: repeat(4, 292px);
+  }
+
+  img {
+    height: 160px;
+    object-fit: cover;
+  }
+
+  & figure {
+    position: relative;
+
+    & .content-tag {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+
+    & p {
+      margin-top: 8px;
+      font: var(--h2);
+    }
+  }
+}
+
+/* section + section {
+  border-top: 1px solid var(--stroke-color);
+  margin-top: 80px;
+} */
+
+/* #weekly {
+  margin-bottom: 24px;
+
+  & header {
+    padding-block: 12px;
+    margin-bottom: 24px;
+  }
+
+  & > div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  & a:hover {
+    color: var(--brand-color-light);
+  }
+
+  .card {
+    position: relative;
+  }
+
+  & h2 {
+    margin-top: 8px;
+  }
+
+  .content-tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+  }
+} */
